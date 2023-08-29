@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0a5cf0955f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="text-cyan-600 text-center font-bold text-5xl mt-9">Money Master </h2>
+    </header>
+    <main>
+        <section class="mt-9 grid grid-cols-2 gap-x-20 mx-auto">
+            <div>
+                <img src="images/3-12.webp" alt="" class="ml-5 imagev">
+            </div>
+            <div class="text-center">
+                <div>
+                    <p class="font-bold">Income</p> <br>
+
+                    <span class="mr-2">Income:</span> <input id="incomeid"
+                        class="bg-gray-600 p-1 placeholder:text-zinc-300 w-70 h-9 text-white" type="text"
+                        placeholder="10000">
+
+                    <p class="font-bold mt-8">Expenses</p> <br>
+
+
+
+                    <span class="mr-2">Food:</span> <input id="foodbtn"
+                        class="bg-gray-600 p-1 placeholder:text-zinc-300 mb-4 w-70 h-9 text-white" type="text"
+                        placeholder="3000"><br>
+                    <span class="mr-2">Rent:</span> <input id="rentbtn"
+                        class="bg-gray-600 p-1 placeholder:text-zinc-300 mb-4 w-70 h-9 text-white" type="text"
+                        placeholder="2000"><br>
+                    <span class="mr-3">Clothes:</span> <input id="clothesbtn"
+                        class="bg-gray-600 p-1 placeholder:text-zinc-300 mb-4 w-70 h-9 text-white" type="text"
+                        placeholder="500"> <br>
+
+                    <button id="calcbtn"
+                        class="bg-blue-500 text-white rounded-md font-bold w-40 h-10 mt-3">Calculate</button> <br>
+
+                    <p class="font-bold mt-5">Total Expenses: <span id="Expenses">5500</span></p> <br>
+                    <p class="font-bold">Total Balance: <span id="Balance">4500</span></p> <br>
+
+                    <span class="mr-1">Save:</span> <input id="saveinput"
+                        class="bg-gray-600 p-1 placeholder:text-zinc-300 w-32 h-9 text-center" type="text"
+                        placeholder=""> <span class="mr-2 ml-2">%</span> <button id="savebtn"
+                        class="bg-blue-500 text-white rounded-md font-bold w-40 h-10 ">Save</button><br>
+                    <p class="font-bold mt-5">Saving Amount: <span id="Saving">2000</span></p> <br>
+                    <p class="font-bold">Remaining Balance: <span id="Remaining">2500</span></p> <br>
+
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <script src="js/utilities.js"></script>
+    <script src="js/b2b.js"></script>
+</body>
+
+</html>
